@@ -1,18 +1,14 @@
 # Declaración de la matriz de 3x3
 # Damian Ortega #
 matriz = [
-    [2, 4, 6],
-    [1, 3, 5],
-    [7, 8, 9]
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
 ]
 
 print("Contenido de la matriz:")
 
-# Recorrido de la matriz con ciclos anidados
-for i in range(3):        # Ciclo para las filas
-    for j in range(3):    # Ciclo para las columnas
-        # Imprimimos el valor seguido de un espacio para que no salte de línea aún
+for i in range(3):
+    for j in range(3):
         print(matriz[i][j], end=" ")
-    
-    # Al terminar una fila, imprimimos un salto de línea
     print()
